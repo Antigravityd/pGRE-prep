@@ -488,21 +488,30 @@ The force on the object is equal to the weight of the fluid it displaces.
 
 * Optics & Waves
 
-** Wave Equation
+** Wave Equation :drill:
+:PROPERTIES:
+:ID:       ec0a6500-1775-421f-a329-b38271235ff2
+:END:
 The homogeneous wave equation
 *** Formula
 $$\frac{\partial^2f}{\partial t^{2}}=v^{2}\frac{\partial^{2} f}{\partial x^{2}}$$
 *** Derivation
 It's a definition
 
-** 1D Solution to the Wave Equation
+** 1D Solution to the Wave Equation :drill:
+:PROPERTIES:
+:ID:       1a336028-6c44-424f-9f4f-6c16603bffdc
+:END:
 The solution to the wave equation
 *** Formula
 $$f(x,t) = A\cos(kx-\omega t+\delta)$$
 *** Derivation
 Separation of variables, I suppose...just memorize it
 
-** Wavenumber, Wavelength, Period, Angular Frequency, Frequency
+** Wavenumber, Wavelength, Period, Angular Frequency, Frequency :drill:
+:PROPERTIES:
+:ID:       87abdd31-1f63-4db1-8aee-015ff43e8fc2
+:END:
 What are the relation between these?
 *** Formula
 $$\lambda=\frac{2\pi}{k}$$
@@ -516,12 +525,18 @@ $f$ is the frequency
 *** Derivation
 These are definitons
 
-** Linear Dispersion Relation
+** Linear Dispersion Relation :drill:
+:PROPERTIES:
+:ID:       8dd7e8d9-7e3f-4a5c-ac67-23fe66794432
+:END:
 *** Formula
 $$\omega=vk$$
 $\omega$ is the angular frequecy, $v$ is the velocity, $k$ is the wavenumber
 
-** Phase and Group Velocity
+** Phase and Group Velocity :drill:
+:PROPERTIES:
+:ID:       0f811404-c5be-4ffa-9245-76e53ee91c6b
+:END:
 *** Formula
 $$\textrm{Phase velocity: }\frac{\omega}{k}$$
 
@@ -529,67 +544,100 @@ $$\textrm{Group velocity: }\frac{d\omega}{dk} $$
 
 $\omega$ is the angular frequency, $k$ is the wavenumber
 
-** Velocity of a Wave on a String
+** Velocity of a Wave on a String :drill:
+:PROPERTIES:
+:ID:       1f33ddfe-bed2-4ae5-9fde-b6f69e1a790a
+:END:
 *** Formula
 
 $$v=\sqrt{\frac{T}{\mu}}$$
 $v$ is the velocity of the wave, $T$ is the tension of the string, and $\mu$ is the density of the string
 
-** Definition of Index of Refraction
+** Definition of Index of Refraction :drill:
+:PROPERTIES:
+:ID:       ae2d8c5a-473b-42ca-8c62-eb3042bc5877
+:END:
 *** Formula
 $$\omega/k=c/n$$
 $\omega$ is the angular frequency, $k$ is the wavenumber, $c$ is the speed of light, and $n$ is the index of refraction
 
-** Change in Wavelength Between Mediums
+** Change in Wavelength Between Mediums :drill:
+:PROPERTIES:
+:ID:       38df4ec5-bb8e-4446-b098-3923c12d977b
+:END:
 *** Formula
 $$\lambda\rightarrow \frac{\lambda}{n}$$
 $\lambda$ is the wavelength and $n$ is the index of refraction
 
-** Law of Malus
+** Law of Malus :drill:
+:PROPERTIES:
+:ID:       b16a74b9-89b7-4ee5-9ac5-c4e79a7433ab
+:END:
 Intensity due to composed polarizing films displaced by some angle
 *** Formula
 $$I=I_0\cos^2\theta$$
 $I$ is the output intensity, $I_0$ is the input intensity, and $\theta$ is the relative angle between the films
 
-** Brewster's Angle
-The angle at which incident light on a boundary between two media will reflect completely polarized
+** Brewster's Angle :drill:
+:PROPERTIES:
+:ID:       9731ff71-9369-4e44-ac81-f962d4152246
+:END:
+The angle at which incident light on a boundary between two media will reflect completely polarized in the normal direction
 *** Formula
 $$\theta_{B}=\arctan\left( \frac{n_{2}}{n_{1}} \right)$$
 $n_1$ is the index of refraction of the material through which the light initially propagates, and $n_2$ is that of the material off which it reflects.
 
-** Phase Differences for Kinds of Interference
+** Phase Differences for Kinds of Interference :drill:
+:PROPERTIES:
+:ID:       b9eb6473-e369-40fe-95d4-68b638ad2da4
+:END:
 What phase difference between waves is necessary for constructive and destructive interference?
 *** Formula
 $$\textrm{Constructive} \Leftrightarrow \textrm{Phase difference of }2k\pi $$
 $$\textrm{Destructive} \Leftrightarrow \textrm{Phase difference of }(2k+1)\pi$$
 $k$ is any integer
 
-** Double-Slit Phase Shift
+** Double-Slit Phase Shift :drill:
+:PROPERTIES:
+:ID:       32300370-23b0-4d52-8df1-dd7036749b5b
+:END:
 In the double-slit experiment, what is the phase shift resulting from a difference in the distances the light travels?
 *** Formula
 $$\delta = k\Delta x$$
 where $k$ is the wavenumber and $\Delta x$ is the difference in the distance of travel between the two slits and a point on the screen
 
-** Double-Slit Diffraction Extrema
+** Double-Slit Diffraction Extrema :drill:
+:PROPERTIES:
+:ID:       3409186d-423a-4a29-a6b0-f4125d8351da
+:END:
 What are the formulae for the position of the  maximum and minimum intensity fringes on the screen in the double-slit experiment?
 *** Formula
 $$\textrm{Maxima: }d\sin\theta=m\lambda $$
 $$\textrm{Minima: }d\sin\theta = \left(m+\frac{1}{2}\right)\lambda$$
-where $d$ is the distance between the slits and the screen, $\theta$ is the angle between the point on the screen and the center of the screen, $m$ is any integer, and $\lambda$ is the wavelength of light
+where $d$ is the distance between the two slits, $\theta$ is the angle between the point on the screen and the center of the screen, $m$ is any integer, and $\lambda$ is the wavelength of light
 
-** Single-Slit Diffraction Minima
-What is the formula for the position of the minimum intensity fringes on the screen in the double-slit experiment?
+** Single-Slit Diffraction Minima :drill:
+:PROPERTIES:
+:ID:       321c2348-b402-4268-80be-7d6da0df5a96
+:END:
+What is the formula for the position of the minimum intensity fringes on the screen in single-slit diffraction?
 *** Formula
 $$a\sin\theta = m\lambda$$
-where $a$ is the distance between the slit and the screen, $\theta$ is the angle between the point on the screen and the center of the screen, $m$ is any integer, and $\lambda$ is the wavelength of light
+where $a$ is the width of the slit, $\theta$ is the angle between the point on the screen and the center of the screen, $m$ is any integer, and $\lambda$ is the wavelength of light
 
-** Optical Path Length
+** Optical Path Length :drill:
+:PROPERTIES:
+:ID:       ce36f826-03cc-47e3-b916-a4b8cc03cdab
+:END:
 When light passes through a medium, the rate of phase changes. The optical path length is the distance light would have to travel in a vacuum to obtain an equal phase shift to that it obtains in a medium; what's the formula?
 *** Formula
 $$\Delta x = nd$$
 where $n$ is the index of refraction of the medium, and $d$ is the actual distance the light travels
 
-** Reflection Phase Shift
+** Reflection Phase Shift :drill:
+:PROPERTIES:
+:ID:       a672ce64-3390-4f10-bc6a-550858ad62d6
+:END:
 When light reflects off the boundary of a medium, it can change phase if the index of refraction is right. What's this relationship?
 *** Formula
 $$n_{2}>n_{1}\Rightarrow\textrm{Phase shift } \pi$$
@@ -597,13 +645,19 @@ $$n_{2} < n_{1}\Rightarrow \textrm{Phase shift 0}$$
 where $n_1$ is the index of refraction of the inital medium through which the light propagates and $n_2$ is that of the material off which the reflection occurs
 
 
-**  Pinhole Diffraction
+**  Pinhole Diffraction :drill:
+:PROPERTIES:
+:ID:       21ac6b25-9253-49c4-a029-38d66b2e5878
+:END:
 What's the Rayleigh criterion for the first diffraction minimum through a circular hole?
 *** Formula
 $$d\sin\theta = 1.22\lambda$$
 where $d$ is the distance from the pinhole to the screen, $\theta$ is the angle between the line from the pinhole a point on the screen and the perpendicular, and $\lambda$ is the wavelength of light
 
-** Bragg Crystal Diffraction Maxima
+** Bragg Crystal Diffraction Maxima :drill:
+:PROPERTIES:
+:ID:       3fa623b5-12c5-48a9-85b4-902bf97c4777
+:END:
 When x-rays are incident on a crystalline lattice, what's the position of the diffraction pattern?
 *** Formula
 $$d\sin\theta = n\lambda / 2$$
