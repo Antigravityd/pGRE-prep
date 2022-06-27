@@ -1,0 +1,8 @@
+* Physics GRE Prep Resources
+
+This is a compilation of resources I'm using to prepare for the GRE. Results are pending of course, so who knows if they're any good.
+
+** Contents
+
+- Kahn and Anderson's formula sheet, written in org-mode and designed for use as [[https://orgmode.org/worg/org-contrib/org-drill.html][org-drill]] flashcards.
+- That's it so far!
